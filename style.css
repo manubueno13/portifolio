@@ -8,12 +8,22 @@
     display: flex;
     position: sticky;
     top:0;
+    justify-content: space-around;
 }
 
 .games{
+   margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg");
+}
+#game{
     background-color: rgb(238, 176, 238);
 }
 
 #links{
     margin-left: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
