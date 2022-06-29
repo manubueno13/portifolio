@@ -1,0 +1,19 @@
+*{
+    border:solid
+}
+
+
+.menu{
+    background-color: aquamarine;
+    display: flex;
+    position: sticky;
+    top:0;
+}
+
+.games{
+    background-color: rgb(238, 176, 238);
+}
+
+#links{
+    margin-left: 600px;
+}
