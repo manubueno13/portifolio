@@ -1,24 +1,24 @@
-*{
-    border:solid
-}
-
-
 .menu{
     background-color: aquamarine;
     display: flex;
     position: sticky;
     top:0;
     justify-content: space-around;
+    border:solid
 }
 
 .games{
    margin-top: 30px;
     display: flex;
+    
     justify-content: space-around;
     background-image: url("https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg");
+    gap: 50px;
+    border:solid
 }
 #game{
     background-color: rgb(238, 176, 238);
+    border:solid
 }
 
 #links{
@@ -26,4 +26,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
+    
 }
