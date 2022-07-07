@@ -1,10 +1,18 @@
+body{
+    background-color: black;
+}
+#rodape{
+    margin-left: 40%;
+    margin-top: 10px;
+}
 .menu{
-    background-color: aquamarine;
+    background-color: rgb(238, 176, 238);
     display: flex;
     position: sticky;
     top:0;
     justify-content: space-around;
-    border:solid
+    border:solid;
+    z-index: 10;
 }
 
 .games{
@@ -20,9 +28,21 @@
     background-color: rgb(238, 176, 238);
     border:solid;
     border-radius: 10px;
-    
+  position: relative  
 }
-
+#game:hover img{
+    opacity: 0.33;
+}
+#game h3{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+#game:hover h3{
+    opacity: 1;
+}
 #links{
     margin-left: 600px;
     display: flex;
